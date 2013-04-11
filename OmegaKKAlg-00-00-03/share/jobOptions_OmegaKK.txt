@@ -1,0 +1,27 @@
+#include "$VERTEXFITROOT/share/jobOptions_VertexDbSvc.txt"
+ApplicationMgr.DLLs += {"OmegaKKAlg"};
+ApplicationMgr.TopAlg += { "OmegaKK" };
+
+OmegaKK.Vr0cut = 1.0;
+OmegaKK.Vz0cut = 10.0;
+
+OmegaKK.EnergyThreshold = 0.04;
+OmegaKK.GammaPhiCut = 20.0;
+OmegaKK.GammaThetaCut = 20.0;
+OmegaKK.GammaAngleCut = 20.0;
+
+OmegaKK.Test4C = 1;
+OmegaKK.Test5C = 1;
+OmegaKK.CheckDedx = 1;				
+OmegaKK.CheckTof = 1;
+
+OmegaKK.EnergyOfCollider = 3.686;
+
+OmegaKK.Save4MomForMCTruth = 0;
+
+OmegaKK.Do5CCalibration = 1;
+
+
+
+
+
